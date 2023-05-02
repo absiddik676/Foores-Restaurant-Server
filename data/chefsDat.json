@@ -1,51 +1,284 @@
 [
     {
-      "id": 1,
-      "chefName": "John Doe",
-      "chefPicture": "https://i.ibb.co/zGDBSGc/gettyimages-911153602-612x612.jpg",
-      "yearsOfExperience": 10,
-      "likes": 500,
-      "numberOfRecipes": 50
+        "id": 1,
+        "chefName": "Masaharu Morimoto",
+        "chefPicture": "https://i.ibb.co/zGDBSGc/gettyimages-911153602-612x612.jpg",
+        "yearsOfExperience": 10,
+        "likes": 500,
+        "numberOfRecipes": 50,
+        "short_bio": "Masaharu Morimoto is a Japanese chef and TV personality. He is best known as an Iron Chef on the Japanese TV show 'Iron Chef' and its American spinoff 'Iron Chef America'. He has also appeared as a guest judge on the cooking competition show 'Top Chef'. Morimoto has several restaurants around the world, including locations in New York, Tokyo, and Bangkok.",
+        "recipes": [
+            {
+                "name": "Yakitori",
+                "ingredients": [
+                    "Chicken (thigh or breast)",
+                    "Sake (Japanese rice wine)",
+                    "Soy sauce",
+                    "Sugar",
+                    "Green onion"
+                ],
+                "cooking_method": "1. Cut the chicken into bite-sized pieces and skewer them. 2. Mix the sake, soy sauce, and sugar in a bowl to make the tare sauce. 3. Grill the chicken skewers over medium heat, basting them with the tare sauce until cooked through. 4. Garnish with sliced green onions.",
+                "rating": 4.5
+            },
+            {
+                "name": "Negima",
+                "ingredients": [
+                    "Chicken (thigh or breast)",
+                    "Green onion",
+                    "Sake (Japanese rice wine)",
+                    "Soy sauce",
+                    "Sugar"
+                ],
+                "cooking_method": "1. Cut the chicken into bite-sized pieces and skewer them with sliced green onions. 2. Mix the sake, soy sauce, and sugar in a bowl to make the tare sauce. 3. Grill the skewers over medium heat, basting them with the tare sauce until cooked through.",
+                "rating": 4.0
+            },
+            {
+                "name": "Tsukune",
+                "ingredients": [
+                    "Ground chicken",
+                    "Green onion",
+                    "Soy sauce",
+                    "Sake (Japanese rice wine)",
+                    "Ginger"
+                ],
+                "cooking_method": "1. Mix the ground chicken, chopped green onion, soy sauce, sake, and grated ginger in a bowl. 2. Form the mixture into meatballs and skewer them. 3. Grill the skewers over medium heat, basting them with additional soy sauce until cooked through.",
+                "rating": 4.2
+            }
+        ]
     },
     {
-      "id": 2,
-      "chefName": "Jane Smith",
-      "chefPicture": "https://i.ibb.co/rm0zzmV/gettyimages-952723342-612x612.jpg",
-      "yearsOfExperience": 5,
-      "likes": 250,
-      "numberOfRecipes": 30
+        "id": 2,
+        "chefName": "Nobu Matsuhisa ",
+        "chefPicture": "https://i.ibb.co/rm0zzmV/gettyimages-952723342-612x612.jpg",
+        "yearsOfExperience": 5,
+        "likes": 250,
+        "numberOfRecipes": 30,
+        "short_bio": "Nobu Matsuhisa is a Japanese chef and restaurateur. He is best known for his fusion cuisine that blends traditional Japanese dishes with South American ingredients and cooking techniques. Matsuhisa has several restaurants around the world, including locations in New York, Los Angeles, and Dubai. He has also published several cookbooks and appeared on TV shows such as 'MasterChef' and 'Hell's Kitchen'.",
+        "recipes": [
+            {
+                "name": "Okonomiyaki",
+                "ingredients": [
+                    "Flour",
+                    "Egg",
+                    "Cabbage",
+                    "Pork belly",
+                    "Okonomiyaki sauce"
+                ],
+                "cooking_method": "1. Mix flour, egg, and water to make the batter. 2. Add shredded cabbage and sliced pork belly to the batter. 3. Pour the mixture onto a hot griddle or pan and cook until browned on both sides. 4. Top with okonomiyaki sauce and garnish with green onion and bonito flakes.",
+                "rating": 4.8
+            },
+            {
+                "name": "Butabara",
+                "ingredients": [
+                    "Pork belly",
+                    "Garlic",
+                    "Ginger",
+                    "Soy sauce",
+                    "Mirin"
+                ],
+                "cooking_method": "1. Cut the pork belly into bite-sized pieces and skewer them. 2. Grill the skewers over medium heat, basting them with a mixture of soy sauce, mirin, garlic, and ginger until cooked through.",
+                "rating": 4.1
+            },
+            {
+                "name": "Momo",
+                "ingredients": [
+                    "Chicken thigh",
+                    "Shiso leaves",
+                    "Soy sauce",
+                    "Sake (Japanese rice wine)",
+                    "Mirin"
+                ],
+                "cooking_method": "1. Cut the chicken thighs into bite-sized pieces and skewer them with shiso leaves. 2. Grill the skewers over medium heat, basting them with a mixture of soy sauce, sake, and mirin until cooked through.",
+                "rating": 4.3
+            }
+        ]
     },
     {
-      "id": 3,
-      "chefName": "Mike Johnson",
-      "chefPicture": "https://i.ibb.co/31PqN0J/gettyimages-586184784-612x612.jpg",
-      "yearsOfExperience": 8,
-      "likes": 400,
-      "numberOfRecipes": 40
+        "id": 3,
+        "chefName": "Yoshihiro Murata",
+        "chefPicture": "https://i.ibb.co/31PqN0J/gettyimages-586184784-612x612.jpg",
+        "yearsOfExperience": 8,
+        "likes": 400,
+        "numberOfRecipes": 40,
+        "short_bio": "Yoshihiro Murata is a third-generation chef and owner of the three-Michelin-starred restaurant 'Kikunoi' in Kyoto, Japan. He is known for his traditional Japanese cooking style that emphasizes seasonal ingredients and artistic presentation. Murata has been featured in several international food magazines and has authored several cookbooks.",
+        "recipes": [
+            {
+                "name": "Tempura",
+                "ingredients": [
+                    "Shrimp",
+                    "Vegetables (e.g. sweet potato, onion, green beans)",
+                    "Flour",
+                    "Cornstarch",
+                    "Cold water"
+                ],
+                "cooking_method": "1. Mix flour, cornstarch, and cold water to make the batter. 2. Dip the shrimp and vegetables in the batter. 3. Fry in hot oil until golden brown. 4. Serve with tentsuyu dipping sauce.",
+                "rating": 4.6
+            },
+            {
+                "name": "Sukiyaki",
+                "ingredients": [
+                    "Thinly sliced beef",
+                    "Tofu",
+                    "Enoki mushrooms",
+                    "Napa cabbage",
+                    "Sukiyaki sauce"
+                ],
+                "cooking_method": "1. Heat sukiyaki sauce in a hot pot. 2. Add beef and cook until browned. 3. Add tofu, mushrooms, and cabbage. 4. Simmer until vegetables are tender. 5. Serve with steamed rice.",
+                "rating": 4.9
+            },
+            {
+                "name": "Tonkatsu",
+                "ingredients": [
+                    "Pork loin",
+                    "Flour",
+                    "Egg",
+                    "Panko breadcrumbs",
+                    "Tonkatsu sauce"
+                ],
+                "cooking_method": "1. Coat the pork loin in flour, egg, and panko breadcrumbs. 2. Fry in hot oil until golden brown. 3. Slice and serve with tonkatsu sauce and shredded cabbage.",
+                "rating": 4.7
+            }
+        ]
     },
     {
-      "id": 4,
-      "chefName": "Sara Kim",
-      "chefPicture": "https://i.ibb.co/vd9BYj0/gettyimages-952723528-612x612.jpg",
-      "yearsOfExperience": 3,
-      "likes": 150,
-      "numberOfRecipes": 20
+        "id": 4,
+        "chefName": "Hiroyasu Kawate",
+        "chefPicture": "https://i.ibb.co/vd9BYj0/gettyimages-952723528-612x612.jpg",
+        "yearsOfExperience": 3,
+        "likes": 150,
+        "numberOfRecipes": 20,
+        "short_bio": "Hiroyasu Kawate is the chef and owner of the one-Michelin-starred restaurant 'Florilège' in Tokyo, Japan. He is known for his creative and artistic dishes that showcase the natural flavors of the ingredients. Kawate's restaurant has been ranked as one of Asia's 50 Best Restaurants by S. Pellegrino and has been featured in several international food magazines.",
+        "recipes": [
+            {
+                "name": "Gyoza",
+                "ingredients": [
+                    "Ground pork",
+                    "Cabbage",
+                    "Garlic",
+                    "Ginger",
+                    "Gyoza wrappers"
+                ],
+                "cooking_method": "1. Mix ground pork, cabbage, garlic, and ginger in a bowl. 2. Place a spoonful of the filling onto a gyoza wrapper. 3. Fold the wrapper in half and crimp the edges to seal. 4. Pan-fry the gyoza until the bottoms are golden brown. 5. Add water and cover to steam the gyoza until the filling is cooked through.",
+                "rating": 4.8
+            },
+            {
+                "name": "Yakiniku",
+                "ingredients": [
+                    "Thinly sliced beef",
+                    "Soy sauce",
+                    "Sugar",
+                    "Sake",
+                    "Assorted vegetables (e.g. onions, mushrooms, peppers)"
+                ],
+                "cooking_method": "1. Marinate thinly sliced beef in soy sauce, sugar, and sake. 2. Grill the beef and assorted vegetables until cooked to your liking. 3. Serve with rice and dipping sauce.",
+                "rating": 4.7
+            },
+            {
+                "name": "Unagi Don",
+                "ingredients": [
+                    "Freshwater eel",
+                    "Soy sauce",
+                    "Mirin",
+                    "Sugar",
+                    "Steamed rice"
+                ],
+                "cooking_method": "1. Grill or broil the freshwater eel until cooked. 2. Make a sauce by combining soy sauce, mirin, and sugar in a saucepan. 3. Heat the sauce until thickened. 4. Place the eel on top of a bed of steamed rice. 5. Drizzle with the sauce and serve.",
+                "rating": 4.9
+            }
+        ]
     },
     {
-      "id": 5,
-      "chefName": "David Lee",
-      "chefPicture": "https://i.ibb.co/LRzB8Ng/gettyimages-1144614720-612x612.jpg",
-      "yearsOfExperience": 12,
-      "likes": 700,
-      "numberOfRecipes": 60
+        "id": 5,
+        "chefName": "Mitsuharu Tsumura",
+        "chefPicture": "https://i.ibb.co/LRzB8Ng/gettyimages-1144614720-612x612.jpg",
+        "yearsOfExperience": 12,
+        "likes": 700,
+        "numberOfRecipes": 60,
+        "short_bio": "Mitsuharu Tsumura is the chef and owner of the one-Michelin-starred restaurant 'Maido' in Lima, Peru. He is known for his Nikkei cuisine that blends Japanese and Peruvian ingredients and flavors. Tsumura's restaurant has been ranked as one of the World's 50 Best Restaurants by S.",
+        "recipes": [
+            {
+                "name": "Okonomiyaki",
+                "ingredients": [
+                    "Cabbage",
+                    "Flour",
+                    "Eggs",
+                    "Sliced pork belly",
+                    "Okonomiyaki sauce"
+                ],
+                "cooking_method": "1. Mix shredded cabbage, flour, eggs, and water in a bowl. 2. Heat a griddle or skillet and add a layer of sliced pork belly. 3. Pour the cabbage mixture over the pork belly. 4. Flip the okonomiyaki when the bottom is golden brown. 5. Brush with okonomiyaki sauce and serve.",
+                "rating": 4.6
+            },
+            {
+                "name": "Tempura",
+                "ingredients": [
+                    "Shrimp",
+                    "Vegetables (e.g. sweet potato, onion, green beans)",
+                    "Flour",
+                    "Egg",
+                    "Ice water"
+                ],
+                "cooking_method": "1. Mix flour, egg, and ice water to make a batter. 2. Dip the shrimp and vegetables in the batter. 3. Deep-fry the shrimp and vegetables until golden brown. 4. Serve with dipping sauce.",
+                "rating": 4.8
+            },
+            {
+                "name": "Tonkatsu",
+                "ingredients": [
+                    "Pork loin",
+                    "Flour",
+                    "Egg",
+                    "Panko breadcrumbs",
+                    "Tonkatsu sauce"
+                ],
+                "cooking_method": "1. Pound pork loin until thin. 2. Coat the pork in flour, then dip in beaten egg. 3. Coat the pork in panko breadcrumbs. 4. Deep-fry the pork until golden brown. 5. Serve with tonkatsu sauce and shredded cabbage.",
+                "rating": 4.7
+            }
+        ]
     },
     {
-      "id": 6,
-      "chefName": "Julia Chen",
-      "chefPicture": "https://i.ibb.co/R6mjd8D/gettyimages-1144614890-612x612.jpg",
-      "yearsOfExperience": 6,
-      "likes": 300,
-      "numberOfRecipes": 25
+        "id": 6,
+        "chefName": "Yui Tanaka",
+        "chefPicture": "https://i.ibb.co/R6mjd8D/gettyimages-1144614890-612x612.jpg",
+        "yearsOfExperience": 6,
+        "likes": 300,
+        "numberOfRecipes": 25,
+        "short_bio": "Yui Tanaka is a master of traditional Japanese cuisine with over a decade of experience. She specializes in creating delicate and flavorful dishes that are as beautiful as they are delicious. Yui's passion for cooking started at a young age, and she has trained with some of the most respected chefs in Japan. She now runs her own restaurant, where she serves her signature dishes to loyal customers who come from all over the world to experience her exquisite cuisine.",
+        "recipes": [
+            {
+                "name": "Soba noodles",
+                "ingredients": [
+                    "Soba noodles",
+                    "Soy sauce",
+                    "Mirin",
+                    "Sugar",
+                    "Green onions"
+                ],
+                "cooking_method": "1. Boil soba noodles until cooked. 2. In a saucepan, combine soy sauce, mirin, and sugar. 3. Cook until the sugar dissolves. 4. Drain the noodles and rinse with cold water. 5. Serve the noodles with the sauce and garnish with sliced green onions.",
+                "rating": 4.5
+            },
+            {
+                "name": "Gyudon",
+                "ingredients": [
+                    "Thinly sliced beef",
+                    "Onion",
+                    "Soy sauce",
+                    "Mirin",
+                    "Rice"
+                ],
+                "cooking_method": "1. Thinly slice the onion and sauté until soft. 2. Add thinly sliced beef and cook until browned. 3. Add soy sauce, mirin, and water to the pan. 4. Simmer until the liquid is reduced. 5. Serve over a bowl of rice.",
+                "rating": 4.9
+            },
+            {
+                "name": "Chirashi sushi",
+                "ingredients": [
+                    "Sushi rice",
+                    "Assorted sashimi (e.g. tuna, salmon, yellowtail)",
+                    "Egg",
+                    "Shiitake mushrooms",
+                    "Cucumber"
+                ],
+                "cooking_method": "1. Cook sushi rice and let it cool. 2. Thinly slice the sashimi and set aside. 3. Make thin omelettes with beaten eggs and sliced shiitake mushrooms. 4. Cut the omelettes into thin strips. 5. Assemble the chirashi sushi by placing sushi rice in a bowl and arranging the sashimi, omelette strips, and sliced cucumber on top.",
+                "rating": 4.8
+            }
+        ]
     }
-  ]
-  
+]
