@@ -1,12 +1,12 @@
 [
     {
         "id": 1,
-        "chefName": "Masaharu Morimoto",
+        "chefName": "Masaharu Kei",
         "chefPicture": "https://i.ibb.co/zGDBSGc/gettyimages-911153602-612x612.jpg",
         "yearsOfExperience": 10,
         "likes": 500,
         "numberOfRecipes": 50,
-        "short_bio": "Masaharu Morimoto is a Japanese chef and TV personality. He is best known as an Iron Chef on the Japanese TV show 'Iron Chef' and its American spinoff 'Iron Chef America'. He has also appeared as a guest judge on the cooking competition show 'Top Chef'. Morimoto has several restaurants around the world, including locations in New York, Tokyo, and Bangkok.",
+        "short_bio": "Masaharu Kei is a Japanese chef and TV personality. He is best known as an Iron Chef on the Japanese TV show 'Iron Chef' and its American spinoff 'Iron Chef America'. He has also appeared as a guest judge on the cooking competition show 'Top Chef'. Morimoto has several restaurants around the world, including locations in New York, Tokyo, and Bangkok.",
         "recipes": [
             {
                 "name": "Yakitori",
@@ -189,12 +189,12 @@
     },
     {
         "id": 5,
-        "chefName": "Mitsuharu Tsumura",
+        "chefName": "Mitsuharu Anzu",
         "chefPicture": "https://i.ibb.co/LRzB8Ng/gettyimages-1144614720-612x612.jpg",
         "yearsOfExperience": 12,
         "likes": 700,
         "numberOfRecipes": 60,
-        "short_bio": "Mitsuharu Tsumura is the chef and owner of the one-Michelin-starred restaurant 'Maido' in Lima, Peru. He is known for his Nikkei cuisine that blends Japanese and Peruvian ingredients and flavors. Tsumura's restaurant has been ranked as one of the World's 50 Best Restaurants by S.",
+        "short_bio": "Mitsuharu Anzu is the chef and owner of the one-Michelin-starred restaurant 'Maido' in Lima, Peru. He is known for his Nikkei cuisine that blends Japanese and Peruvian ingredients and flavors. Tsumura's restaurant has been ranked as one of the World's 50 Best Restaurants by S.",
         "recipes": [
             {
                 "name": "Okonomiyaki",
